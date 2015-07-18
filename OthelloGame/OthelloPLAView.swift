@@ -34,6 +34,8 @@ class OthelloPLAView: UIView {
         
         lbl.text = ""
         lbl.frame = CGRectMake(10, top/2, appFrame.size.width, top/2)
+        lbl.textColor = UIColor.redColor()
+        lbl.layer.position = CGPoint(x: self.bounds.width/2,y: 400)
         addSubview(lbl)
         
     }

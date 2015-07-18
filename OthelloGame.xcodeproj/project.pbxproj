@@ -15,6 +15,7 @@
 		D46F1CA01B599D2D00492A0F /* OthelloGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F1C9F1B599D2D00492A0F /* OthelloGameTests.swift */; };
 		D46F1CAC1B599F5100492A0F /* OthelloCPUView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F1CAB1B599F5100492A0F /* OthelloCPUView.swift */; };
 		D46F1CAE1B599F6900492A0F /* OthelloPLAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F1CAD1B599F6900492A0F /* OthelloPLAView.swift */; };
+		D46F1CB01B5AAF6B00492A0F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46F1CAF1B5AAF6B00492A0F /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		D46F1C9F1B599D2D00492A0F /* OthelloGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthelloGameTests.swift; sourceTree = "<group>"; };
 		D46F1CAB1B599F5100492A0F /* OthelloCPUView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OthelloCPUView.swift; sourceTree = "<group>"; };
 		D46F1CAD1B599F6900492A0F /* OthelloPLAView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OthelloPLAView.swift; sourceTree = "<group>"; };
+		D46F1CAF1B5AAF6B00492A0F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46F1CB01B5AAF6B00492A0F /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		D46F1C7B1B599D2D00492A0F = {
 			isa = PBXGroup;
 			children = (
+				D46F1CAF1B5AAF6B00492A0F /* QuartzCore.framework */,
 				D46F1C861B599D2D00492A0F /* OthelloGame */,
 				D46F1C9C1B599D2D00492A0F /* OthelloGameTests */,
 				D46F1C851B599D2D00492A0F /* Products */,
@@ -417,6 +421,7 @@
 				D46F1CA51B599D2D00492A0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D46F1CA61B599D2D00492A0F /* Build configuration list for PBXNativeTarget "OthelloGameTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +430,7 @@
 				D46F1CA81B599D2D00492A0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
