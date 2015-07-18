@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 let Empty = 0 , Black_Stone = 1, White_Stone = 2
 
 let initboard = [
@@ -27,6 +26,7 @@ let initboard = [
 
 
 class OthelloCPUView: UIView {
+    
     var board:[[Int]] = []
     let white = UIColor.whiteColor().CGColor
     let black = UIColor.blackColor().CGColor
@@ -136,8 +136,8 @@ class OthelloCPUView: UIView {
     //    }
     
     
-    
     @IBOutlet weak var showTurn: UILabel!
+    
     
     var myTurn:Bool = true
     
@@ -183,6 +183,7 @@ class OthelloCPUView: UIView {
             updateGame()
             setNeedsDisplay()
             showTurn.text = "Turn: black"
+            
         }
         
         
@@ -322,3 +323,6 @@ func calcStones(board: [[Int]]) -> (free:Int, black:Int, white:Int) {
     return (free, black, white)
     
 }
+
+
+

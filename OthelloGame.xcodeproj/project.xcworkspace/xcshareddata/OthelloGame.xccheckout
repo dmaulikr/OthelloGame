@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5D52D1C6-BAD8-496E-912E-DD304A38EBFA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OthelloGame</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4A35A7186B5126A0C1DED7BC8ED0DFE51B6F4647</key>
+		<string>https://github.com/shota-aizawa/OthelloGame.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OthelloGame.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4A35A7186B5126A0C1DED7BC8ED0DFE51B6F4647</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/shota-aizawa/OthelloGame.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4A35A7186B5126A0C1DED7BC8ED0DFE51B6F4647</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4A35A7186B5126A0C1DED7BC8ED0DFE51B6F4647</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OthelloGame</string>
+		</dict>
+	</array>
+</dict>
+</plist>

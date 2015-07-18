@@ -102,7 +102,18 @@
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="OthelloPLAView" id="CbL-q2-BOW" customClass="OthelloPLAView" customModule="OthelloGame" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Turn" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n1F-ee-JbB">
+                                <rect key="frame" x="112" y="385" width="177" height="55"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="showTurn2" destination="n1F-ee-JbB" id="lDD-aA-YNR"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Versus Player" id="b4K-oZ-Ru3"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
